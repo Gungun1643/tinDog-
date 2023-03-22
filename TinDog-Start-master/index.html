@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <!-- Tip : bootstrap link must go before  your own css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- where to place the font-awesome website reference link
+Q.  where should you add the font-awesome reference link??
+= Just below the css stylesheet -->
+  <!-- ctrl + /  ==> comment line -->
+  <script src="https://kit.fontawesome.com/0ac4a9c167.js" crossorigin="anonymous"></script>
+
+  <!-- importing the ubuntu and montserrat typefaces -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200;1,300&family=Ubuntu:wght@500&display=swap"
+    rel="stylesheet">
+  <!-- bootstrap scripts  -karvani baki 6e -->
+  <!-- adding the montserrat font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <!-- pehla to bootstrap vadu default configuration uthavi levanu and then custom changes karta rehvanu -->
+</head>
+
+<body>
+
+  <section id="title">
+    <!-- Nav Bar -->
+    <div class="nav-bar">
+
+      <div class="col-md-3" id="tindogName">tindog</div>
+
+      <!-- <div > -->
+      <div class="col-md-3">Contact</div>
+      <div class="col-md-3">Pricing</div>
+      <div class="col-md-3">Download</div>
+      <!-- </div> -->
+
+    </div>
+
+    <!-- Title -->
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+
+          <h1 style="text-align:center" class="big-heading">Meet new and interesting dogs nearby.</h1>
+
+          <button type="button" class="btn btn-dark btn-lg download-button"><i
+              class="fa-brands fa-apple">Download</i></button>
+
+          <button type="button" class="btn  btn-lg btn-outline-light download-button"><i
+              class="fa-brands fa-google-play">Download</i></button>
+
+          <!-- <button type="button">Download</button> -->
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <!-- pehla to row lakho pachi j column lakho to j thase -->
+  <section id="features">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6">
+        <div style="padding:0% 50%"><i class="icon fa-sharp fa-solid fa-circle-check"
+            style="color: #ef8172;font-size:50px;"></i></div>
+        <h3 class="feature-title">Easy to use.</h3>
+        <p class="para">So easy to use, even your dog could do it.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div style="padding:0% 50%">
+          <i class="icon fa-sharp fa-solid fa-bullseye" style="color: #ef8172;font-size:50px;padding-bottom: 1px;"></i>
+        </div>
+
+        <h3 class="feature-title">Elite Clientele</h3>
+        <p class="para">We have all the dogs, the greatest dogs.</p>
+      </div>
+
+
+      <div class="col-lg-4 col-md-6">
+        <div style="padding:0% 50%">
+          <!-- <span class="heart"> -->
+          <i class="icon fa-sharp fa-solid fa-heart" style="color: #ef8172;font-size:50px;" id="heart"></i>
+          <!-- </span> -->
+        </div>
+        <h3 class="feature-title">Guaranteed to work.</h3>
+        <p class="para">Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <h2 class="longerText">
+      I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+    <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+    <em>Pebbles, New York</em>
+
+    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="logos" src="images/techcrunch.png" alt="tc-logo">
+    <img class="logos" src="images/tnw.png" alt="tnw-logo">
+    <img class="logos" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="logos" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="section">A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+
+    <div class="row">
+      <div class=" pricing-column col-lg-4 col-md-6   col-sm-12">
+       
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block "> Sign Up</button>
+
+          </div>  <!--  -->
+
+         
+        </div>
+      </div>
+
+
+      <div class=" pricing-column col-lg-4 col-md-6   col-sm-12">
+       
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$49/mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+
+            <button type="button" class="btn btn-outline-primary btn-lg btn-block "> Sign Up</button>
+
+          </div>  <!--  -->
+
+         
+        </div>
+      </div>
+
+
+      <div class=" pricing-column col-lg-4 col-md=12 col-sm-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <div class="card-body">
+              <h2  class="price-text">$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-primary btn-lg btn-block " type="submit">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="loveDog">Find the True Love of Your Dog's Life Today.</h3>
+
+    <!-- <button type="button"><i class="fa-brands fa-apple">Download</i></button>
+    <button type="button">Download</button> -->
+    <div class="buttonsBottom">
+    <button type="button" class="btn btn-dark btn-lg download-button">
+      <i
+      class="fa-brands fa-apple iconD">  Download</i></button>
+
+  <button type="button" class="btn  btn-lg btn-outline-light download-button"><i
+      class="fa-brands fa-google-play iconD">    Download</i></button></div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <div class="socialButtons">
+      <i class="fa-brands fa-twitter sB"></i>
+      <i class="fa-brands fa-facebook-f sB"></i>
+      <i class="fa-brands fa-instagram sB"></i>
+      <i class="fa-solid fa-envelope sB"></i>
+    </div>
+    <p class="copyR">© Copyright TinDog</p>
+
+  </footer>
+
+
+</body>
+
+</html>

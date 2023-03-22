@@ -1,0 +1,215 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+/* h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+} */
+/* pehla thi bootstrap apelu j 6e and then we are going to customize it accordingly */
+.container-fluid {
+  /* top -> 3 and right-left = 15 */
+  padding: 10% 15%;
+}
+body {
+
+  font-family: "Montserrat";
+  /* color:white; */
+}
+#tindogName {
+  font-size: 50px;
+  /* //color */
+  color: white;
+  /* font style */
+}
+.nav-bar {
+  padding-bottom: 0 0 4rem;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+/* navigation bar */
+.container-fluid
+{
+
+}
+#tindogName {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  padding: 3rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat-Light";
+}
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+/* title image */
+
+.para {
+  color: #8f8f8f;
+}
+
+/* #heart:hover
+{color: #ff4c68;
+
+} */
+/* .fa-heart:hover
+{
+color: #ff4c68;
+} */
+/* #heart:hover
+{
+color: red;
+} */
+/* .fa-sharp:hover
+{
+color: #ff4c68;
+} */
+
+.icon:hover {
+  color: #ff4c68;
+}
+#testimonials {
+  padding: 7% 15%;
+  /* position: absolute; */
+  text-align: "center";
+  background-color: #ef8172;
+  color: #fff;
+}
+.title-image {
+  width: 400px;
+  height: 430px;
+
+  position: absolute;
+  transform: rotate(25deg);
+}
+h2 {
+  font-family: "Monserrat-Bold";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 10%;
+  right: 30%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.logos {
+  size: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing  */
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.card-body {
+  text-align: center;
+}
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  padding: 7% 15%;
+
+  /* padding-top: 1%; */
+  font-size: 110%;
+}
+#title {
+  padding: 0%;
+}
+/* media queries to do the resizing of the dog's image on refractoring it  */
+@media (max-width: 1028px) {
+  .title-image {
+    transform: rotate(0deg);
+    position: static;
+  }
+  .container-fluid {
+    text-align: center;
+  }
+}
+#cta {
+  padding: 0%;
+
+  background-color: #ff4c68;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+
+  font-weight: bold;
+  /* font-family:"Montserrat-Black";  */
+}
+.loveDog {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 2%;
+  text-align: center;
+  font-size: 50px;
+}
+.buttonsBottom {
+  text-align: center;
+}
+.socialButtons {
+  text-align: center;
+}
+.sB {
+  font-size: 20px;
+  padding: 5px;
+}
+.copyR {
+  text-align: center;
+}
+#footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.iconD {
+  /* padding: 0.5rem; */
+}
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+ 
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.longerText
+{
+ 
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Montserrat-Black";
+  padding-left: 10%;
+  padding-right: 15%;
+text-align: center;
+}
+.testimonial-text
+{
+  line-height: 1.5rem;
+  font-size: 3rem;
+ 
+}
+.price-text
+{
+ 
+  line-height: 1.5rem;
+  font-size: 3rem;
+}
